@@ -2,6 +2,10 @@
 
 An automated, intelligent two-stage deep learning framework designed for real-time traffic accident detection and severity assessment using CCTV surveillance footage. This system integrates lightweight architectures to ensure high-speed processing suitable for automated traffic incident management systems.
 
+## 📄 Research Paper
+The full methodology, architectural details, and experimental results of this framework are documented in our research paper. 
+[Click here to read the full Research Paper (PDF)](Accident_Detection_Research_Paper.pdf)
+
 ## 🚀 Key Features
 - **Two-Stage Intelligent Pipeline:** - **Stage 1 (Binary Classification):** Detects whether an accident has occurred or not (Accident vs. Non-Accident) using a tuned **MobileNetV2** backbone.
   - **Stage 2 (Multi-Class Classification):** Evaluates the severity score of the detected accident into three distinct levels: **Minor**, **Substantial**, or **Critical Impact**.
